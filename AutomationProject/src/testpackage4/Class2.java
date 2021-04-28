@@ -13,7 +13,7 @@ public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver","D:\\\\AUTOMATION\\\\chromedriver88\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
-	//	driver.get("https://www.selenium.dev/downloads/");
+		driver.get("https://www.selenium.dev/downloads/");
 		driver.navigate().to("https://www.facebook.com/r.php");
 		Thread.sleep(5000);
 
