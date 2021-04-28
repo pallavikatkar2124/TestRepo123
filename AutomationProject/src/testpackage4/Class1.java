@@ -17,8 +17,8 @@ public class Class1 {
 		Thread.sleep(5000);
 		
 		//driver.manage().window().maximize();
-	//	Point p = new Point(100,200);
-	//	driver.manage().window().setPosition(p);
+		Point p = new Point(100,200);
+		driver.manage().window().setPosition(p);
 		
 		WebElement firstName = driver.findElement(By.xpath("//input[@id='u_0_n_2R']"));
 		
