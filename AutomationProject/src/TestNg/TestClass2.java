@@ -70,6 +70,14 @@ public class TestClass2 {
    @AfterSuite
    public void aftersuite() {
 	System.out.println("TestClass2 after suite ");
+	   
+   @AfterSuite
+   public void aftersuite() {
+	System.out.println("TestClass2 after suite ");
+	   
+   @AfterSuite
+   public void aftersuite() {
+	System.out.println("TestClass2 after suite ");
 }
 }
 
